@@ -1,11 +1,13 @@
 /*
 Exercise 3
-Complete the following function definition for kilogramsToPounds, which takes in one parameter: kilos.
-It should return the number of pounds equivalent to the value of kilos given, rounded to 1 decimal place.
+Complete the following function definition for kilogramsToPounds, 
+which takes in one parameter: kilos.
+It should return the number of pounds equivalent to the value of kilos given, 
+rounded to 1 decimal place.
 */
 
 function kilogramsToPounds(kilos) {
-    /*Your Code Here*/
+    return (kilos*2.2).toFixed(1);/*Your Code Here*/
 }
 
 //Test Cases
