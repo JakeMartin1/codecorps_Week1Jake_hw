@@ -1,11 +1,13 @@
 /*
 Exercise 2
-Complete the following function definition for milesToFeet, which takes in one parameter: miles.
-It should return the number of feet equivalent to the value of miles given, rounded to 1 decimal place.
+Complete the following function definition for milesToFeet, 
+which takes in one parameter: miles.
+It should return the number of feet equivalent to the value of miles given, 
+rounded to 1 decimal place.
 */
 
 function milesToFeet(miles) {
-    /*Your Code Here*/
+    return (miles*5280).toFixed(1); /*Your Code Here*/;
 }
 
 //Test Cases
