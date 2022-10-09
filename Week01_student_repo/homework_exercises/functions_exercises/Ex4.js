@@ -1,11 +1,14 @@
 /*
 Exercise 4
 Define a function called poundsToKilograms, which takes in one parameter: pounds.
-It should return the number of kilograms equivalent to the value of pounds given, rounded to 1 decimal place.
+It should return the number of kilograms equivalent to the value of pounds given, 
+rounded to 1 decimal place.
 */
 
 
-/*Your Code Here*/
+function poundsToKilograms(pounds){
+    return (pounds/2.2).toFixed(1);
+}/*Your Code Here*/
 
 
 //Test Cases
