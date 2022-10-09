@@ -7,7 +7,9 @@ It should return the equivalent temperature in degrees Fahrenheit, rounded to 1 
 
 
 /*Your Code Here*/
-
+function celsiusToFahrenheit(degreesC) {
+    return (degreesC * (9/5) + 32).toFixed(1);
+}
 
 //Test Cases
 console.log(`58 degrees C is equal to ${celsiusToFahrenheit(58)} degrees F.`); //Should be 136.4 deg F
