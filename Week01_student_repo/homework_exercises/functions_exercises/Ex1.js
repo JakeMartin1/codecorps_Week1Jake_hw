@@ -1,12 +1,13 @@
 /*
 Exercise 1
-Complete the following function definition for calculateAnnualExpenses, which takes in three parameters:
+Complete the following function definition for calculateAnnualExpenses, 
+which takes in three parameters:
 monthlyRent, monthlyBills, and weeklyFood.
 It should return the total annual expenses given those three parameters.
 */
 
 function calculateAnnualExpenses(monthlyRent, monthlyBills, weeklyFood) {
-    /*Your Code Here*/
+    return ((monthlyRent + monthlyBills)*12) + (weeklyFood*52) /*Your Code Here*/
 }
 
 //Test Cases
