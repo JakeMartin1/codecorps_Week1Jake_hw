@@ -13,7 +13,7 @@ more information: https://www.mathsisfun.com/algebra/triangular-numbers.html
 let num = 66430
 // 8 * num + 1 % num.sqrt()
 //Math.sqrt()
-console.log(math.sqrt(num))
+console.log()
 
 function isTriangular(num) {
     let square = ((8 * num) + 1)
