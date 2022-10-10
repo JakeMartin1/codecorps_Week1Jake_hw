@@ -13,26 +13,34 @@ more information: https://www.mathsisfun.com/algebra/triangular-numbers.html
 let num = 66430
 // 8 * num + 1 % num.sqrt()
 //Math.sqrt()
-console.log()
+//Math.sqrt((8 * num) + 1)
+let thought = 88430 % 8
+console.log(thought)
 
 function isTriangular(num) {
-    let square = ((8 * num) + 1)
+    for ( let i = 0 ; i < num ; i++) {
+        // let count = num[i];
+        // console.log (count);
+        let numSum = Eq.sumUp(i)
 
-    return ;
+    }
+        //let square = ((8 * num) + 1)
+
+    return  numSum == num;
 }
 
-//Test Cases
-console.log('True or False: 66430 is a triangular number?');
+// //Test Cases
+// console.log('True or False: 66430 is a triangular number?');
 console.log(isTriangular(66430)); //Should be true
 
-console.log('True or False: 2958342 is a triangular number?');
-console.log(isTriangular(2958342)); //Should be false
+// console.log('True or False: 2958342 is a triangular number?');
+// console.log(isTriangular(2958342)); //Should be false
 
-console.log('True or False: 153 is a triangular number?');
-console.log(isTriangular(153)); //Should be true
+// console.log('True or False: 153 is a triangular number?');
+// console.log(isTriangular(153)); //Should be true
 
-console.log('True or False: 2145 is a triangular number?');
-console.log(isTriangular(2145)); //Should be true
+// console.log('True or False: 2145 is a triangular number?');
+// console.log(isTriangular(2145)); //Should be true
 
-console.log('True or False: 92 is a triangular number?');
-console.log(isTriangular(92)); //Should be false
+// console.log('True or False: 92 is a triangular number?');
+// console.log(isTriangular(92)); //Should be false
