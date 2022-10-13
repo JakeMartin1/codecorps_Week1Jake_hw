@@ -29,7 +29,7 @@ function isTriangular(num) {
     return  numSum == num;
 }
 
-// //Test Cases
+// //Test Cases 
 // console.log('True or False: 66430 is a triangular number?');
 console.log(isTriangular(66430)); //Should be true
 
